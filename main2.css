@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  width: 100%;
+ /* background: url(website_background.jpg) no-repeat center center fixed;*/
+  background: url(5-Water-Glasses-Filter.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #878AD7 Add a black background color to the top navigation  #ddd*/
+.topnav {
+	width:100%;
+    background-color:#7D81D8;
+	background-size:cover;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #87ceeb;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
+
+.jobs {
+list-style-type: none;
+padding:0;
+margin:0;
+}
+
+.jobs > li {
+display: inline-block;
+}
+
+.dorightalignment{
+	float:right;
+    text-align:right;
+	padding-right:10%;
+}
+
+.bookbtn{
+	background-color:#318DE0;
+}
